@@ -1,0 +1,26 @@
+{
+  "name": "neo4j-cli",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "neo4j-cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "bin": {
+    "neo4j-cli": "./neo4j-cli.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.2",
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "dotenv": "^16.3.1",
+    "inquirer": "^12.5.0",
+    "jsonwebtoken": "^9.0.2",
+    "neo4j-driver": "^5.28.1"
+  }
+}
